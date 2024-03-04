@@ -1,0 +1,47 @@
+.catalog_list{
+    font-family: "Montserrat", sans-serif;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+}
+
+.catalog>h1{
+    color: black;
+    font-size: 36px;
+    text-align: left;
+    margin-top: 136px;
+    margin-bottom: 96px;
+}
+
+.catalog_footer{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 136px;
+}
+.catalog_filter{
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.filter{
+    display: flex;
+    align-items: center;
+    margin-left: 510px;
+}
+.popul{
+    margin-left: 42px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.search{
+    margin-left: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    border: 1px solid black;
+    padding: 0 15px;
+    border-radius: 4px;
+}
